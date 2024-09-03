@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: yellow;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.article-h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.article-p {
+    text-align: center;
+    color: white;
+    font-size: large;
+
+}
+
+.article {
+
+    background-color: cadetblue;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 4%;
+}
+
+.nav {
+    background-color: black;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: antiquewhite;
+}
+
+.nav li {
+    float: left;
+}
+
+.main {
+
+    float: right;
+    width: 60%;
+    padding-top: 2px;
+
+}
+
+.main h1,
+p {
+    margin-left: 10px;
+
+}
+
+.main h2 {
+    background-color: grey;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 200px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.aside {
+    background-color: azure;
+    float: left;
+    width: 40%;
+    margin: 0%;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.aside h2 {
+    background-color: gray;
+    padding-left: 0px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
